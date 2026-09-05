@@ -19,5 +19,8 @@ If you use an OpenAI-compatible LLM with these tasks, [OrcaRouter](https://www.o
 2. Set the environment variables:
 
    ```bash
-   export OPENAI_BASE_URL=https://api.orcarouter.ai/v1   # check the official docs for the exact URL
+   export OPENAI_BASE_URL=https://api.orcarouter.ai/v1
    export OPENAI_API_KEY=sk-orca-...
+
+3. Use any OpenAI-compatible client as usual.
+Enjoy~
