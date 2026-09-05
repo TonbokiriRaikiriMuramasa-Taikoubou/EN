@@ -1,23 +1,23 @@
 # EN
 
-API Key Configuration
-This project supports OrcaRouter as an LLM provider (including free models like DeepSeek).
+Philosophy-flavored LLM benchmark tasks and notebooks on Kaggle by TRMTKB.
 
-Get your API key from OrcaRouter
-Set OPENAI_BASE_URL=https://api.orcarouter.ai/v1 and your OrcaRouter API key.
+## Notebooks & Benchmarks
 
-https://www.orcarouter.ai/ref/ref_ed12827880a85ba11a09
+- https://www.kaggle.com/code/trmtkb/theseus-iron-man-en
+- https://www.kaggle.com/benchmarks/tasks/trmtkb/mcu-trolley-problem-victim-prediction-en
+- https://www.kaggle.com/benchmarks/tasks/trmtkb/human-or-corn-trolley-problem-en
+- https://www.kaggle.com/code/trmtkb/assess-philosophical-question-difficulty-en
+- https://www.kaggle.com/benchmarks/tasks/trmtkb/otaku-nietzsche-sim-2026-en
+- https://www.kaggle.com/benchmarks/tasks/trmtkb/pascal-s-wager-isekai-gambit-en
 
-Enjoy~
+## Running with OrcaRouter
 
-https://www.kaggle.com/code/trmtkb/theseus-iron-man-en
+If you use an OpenAI-compatible LLM with these tasks, [OrcaRouter](https://www.orcarouter.ai/) works as a provider (including free models such as DeepSeek).
 
-https://www.kaggle.com/benchmarks/tasks/trmtkb/mcu-trolley-problem-victim-prediction-en
+1. Create an API key at https://www.orcarouter.ai/ (referral link: https://www.orcarouter.ai/ref/ref_ed12827880a85ba11a09)
+2. Set the environment variables:
 
-https://www.kaggle.com/benchmarks/tasks/trmtkb/human-or-corn-trolley-problem-en
-
-https://www.kaggle.com/code/trmtkb/assess-philosophical-question-difficulty-en
-
-https://www.kaggle.com/benchmarks/tasks/trmtkb/otaku-nietzsche-sim-2026-en
-
-https://www.kaggle.com/benchmarks/tasks/trmtkb/pascal-s-wager-isekai-gambit-en
+   ```bash
+   export OPENAI_BASE_URL=https://api.orcarouter.ai/v1   # check the official docs for the exact URL
+   export OPENAI_API_KEY=sk-orca-...
