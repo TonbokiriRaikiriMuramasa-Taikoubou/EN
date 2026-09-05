@@ -21,7 +21,6 @@ If you use an OpenAI-compatible LLM with these tasks, [OrcaRouter](https://www.o
    ```bash
    export OPENAI_BASE_URL=https://api.orcarouter.ai/v1
    export OPENAI_API_KEY=sk-orca-...
-
-3. Use any OpenAI-compatible client as usual.
+3.Use any OpenAI-compatible client as usual.
 
 Enjoy~
